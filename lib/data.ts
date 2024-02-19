@@ -1,10 +1,8 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+
+import stocky from "@/public/stocku.png";
+import tts from "@/public/TextToSpeech.png";
+import prompt from "@/public/Promptpal.png"
 
 export const links = [
   {
@@ -30,54 +28,28 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
-  {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
-] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Stocky",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Stocky utilizes advanced machine learning techniques, specifically a Linear Regression model, to forecast stock market trends accurately.I developed the Frontend of this project",
+    tags: ["React", "Next.js", "Firebase", "Tailwind", ],
+    imageUrl: stocky,
   },
   {
-    title: "rmtDev",
+    title: "Promptpal",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "PromptPal is a cutting-edge web application designed to ignite your creativity and streamline your writing process. Whether you're a novelist, poet, blogger, or student, PromptPal is your go-to tool for generating endless prompts tailored to your preferences and interests.",
+    tags: ["React", "JavaScript", "Next.js", "Tailwind"],
+    imageUrl:prompt ,
   },
   {
-    title: "Word Analytics",
+    title: "Text To Voice Converter",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A web app which converts your text to an voice.",
+    tags: ["HTML", "CSS", "JavaScript", "Tailwind"],
+    imageUrl: tts,
   },
 ] as const;
 
