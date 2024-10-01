@@ -1,8 +1,11 @@
 
+import React from "react";
 import music from "@/public/music.png";
 import IncogNote from "@/public/IncogNote.png";
 import seo from "@/public/seo.png";
-
+import { CgWorkAlt } from "react-icons/cg";
+import { FaReact } from "react-icons/fa";
+import { LuGraduationCap } from "react-icons/lu";
 export const links = [
   {
     name: "Home",
@@ -20,14 +23,42 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
- 
+  {
+    name: "Experience",
+    hash: "#experience",
+  },
   {
     name: "Contact",
     hash: "#contact",
   },
 ] as const;
 
-
+export const experiencesData = [
+  {
+    title: "Nextjs Developer Intern",
+    location: "Achintya Solutions",
+    description:
+      "Developed and maintained the Achintya Solutions website using Next.js for the company’s services. Worked with Salesforce API on the backend, and integrated WordPress API to fetch dynamic data.",
+    icon:  React.createElement(CgWorkAlt),
+    date: "May 2024 - Aug 2024",
+  },
+  {
+    title: "Full Stack Developer Intern",
+    location: "ByteLyst AI",
+    description:
+      "Developed complex server-side API logic using Node.js to support platform functionalities.Integrated third-party APIs and payment processing with Stripe.Managed and designed MongoDB database schemas. Built responsive web interfaces using Next.js, focusing on scalability and performance.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Aug 2024- June 2024",
+  },
+  {
+    title: " Full Stack Developer Intern",
+    location: "Hyggex World",
+    description:
+      " Designed and developed an AI chatbot using Azure AI services with native speech recognition.Integrated natural language processing for generating outputs in native languages and text formats.Managed database schemas using MongoDB.Developed responsive, user-friendly web interfaces with React.js, following Figma designs.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Aug 2024 - Present",
+  },
+] as const;
 export const projectsData = [
   {
     title: "Music School Website",
