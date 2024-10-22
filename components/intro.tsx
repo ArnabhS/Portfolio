@@ -66,8 +66,8 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Arnabh Sinha.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> currently pursuing{" "}
         <span className="font-bold">B.Tech</span> in Computer Science and Technology from Univesity of Engineering and Management,Kolkata. I enjoy
-        building <span className="italic">sites & apps</span>. My current focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        building <span className="italic">sites & apps</span>. I am also the {" "}
+        <span className="underline">Web Dev Lead at GDG UEMK</span>.
       </motion.h1>
 
       <motion.div

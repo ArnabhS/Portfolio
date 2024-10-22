@@ -1,7 +1,7 @@
 
 import React from "react";
 import music from "@/public/music.png";
-import IncogNote from "@/public/IncogNote.png";
+import LS from "@/public/LS.png";
 import seo from "@/public/seo.png";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
@@ -44,19 +44,18 @@ export const experiencesData = [
   },
   {
     title: "Full Stack Developer Intern",
-    location: "ByteLyst AI",
-    description:
-      "Developed complex server-side API logic using Node.js to support platform functionalities.Integrated third-party APIs and payment processing with Stripe.Managed and designed MongoDB database schemas. Built responsive web interfaces using Next.js, focusing on scalability and performance.",
+    location: "Hyggex World",
+    description:"Designed and developed an AI chatbot using Azure AI services with native speech recognition.Integrated natural language processing for generating outputs in native languages and text formats.Managed database schemas using MongoDB.Developed responsive, user-friendly web interfaces with React.js, following Figma designs",
     icon: React.createElement(CgWorkAlt),
-    date: "Aug 2024- June 2024",
+    date: "Aug 2024- October 2024",
   },
   {
     title: " Full Stack Developer Intern",
-    location: "Hyggex World",
+    location: "Daphnis Labs",
     description:
-      " Designed and developed an AI chatbot using Azure AI services with native speech recognition.Integrated natural language processing for generating outputs in native languages and text formats.Managed database schemas using MongoDB.Developed responsive, user-friendly web interfaces with React.js, following Figma designs.",
+      "  Design, develop, and maintain scalable and high-performance backend systems using Node.jsCreate and manage RESTful APIs to integrate with front-end applications and third-party services.Develop and optimize database schemas, queries, and indexing strategies using MongoDB",
     icon: React.createElement(CgWorkAlt),
-    date: "Aug 2024 - Present",
+    date: "October 2024 - Present",
   },
 ] as const;
 export const projectsData = [
@@ -69,11 +68,11 @@ export const projectsData = [
     
   },
   {
-    title: "Incog Note",
+    title: "LearnSync",
     description:
-      "Incog Note is a full-stack web application where users can ask anything they want anonymously.",
-    tags: ["Next.js", "ZOD","Shad CN","Open AI API","Typescript", "MongoDB"],
-    imageUrl: IncogNote,
+      " An adaptive education assisstant built for giving personalized response targetingdisorders like ADHD, Autism, Dyslexia etc. Built with React.js,Node.js, Express.js, Cohere AI API, and MongoDB. ",
+    tags: ["React.js", "Cohere AI API","Nodejs", "MongoDB"],
+    imageUrl:LS,
   },
   {
     title: "SEO Rank Tracker",
