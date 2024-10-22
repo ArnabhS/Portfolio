@@ -63,23 +63,25 @@ export const projectsData = [
     title: "Music School Website",
     description:
       "This website offers a user-friendly experience for both prospective students and music enthusiasts. Visitors can explore the various instruments offered, browse class schedules, and learn about the talented faculty.",
-    tags: ["React", "Next.js", "Tailwind" ],
-    imageUrl: music ,
-    
+    tags: ["React", "Next.js", "Tailwind"],
+    imageUrl: music,
+    link: "https://music-school-site.vercel.app/",
   },
   {
     title: "LearnSync",
     description:
-      " An adaptive education assisstant built for giving personalized response targetingdisorders like ADHD, Autism, Dyslexia etc. Built with React.js,Node.js, Express.js, Cohere AI API, and MongoDB. ",
-    tags: ["React.js", "Cohere AI API","Nodejs", "MongoDB"],
-    imageUrl:LS,
+      "An adaptive education assistant built for giving personalized responses targeting disorders like ADHD, Autism, Dyslexia, etc. Built with React.js, Node.js, Express.js, Cohere AI API, and MongoDB.",
+    tags: ["React.js", "Cohere AI API", "Nodejs", "MongoDB"],
+    imageUrl: LS,
+    link: "https://learn-sync-v1.vercel.app/",
   },
   {
     title: "SEO Rank Tracker",
     description:
       "Built with Next.js and leveraging the BrightData API, I've developed a powerful tool to track SEO performance in real-time.",
-    tags: ["React.js", "Next.js","Brightdata API","Tailwind", "Recharts", "MongoDB"],
+    tags: ["React.js", "Next.js", "Brightdata API", "Tailwind", "Recharts", "MongoDB"],
     imageUrl: seo,
+    link: "https://arnabh-seo-tracker.vercel.app/",
   },
 ] as const;
 
