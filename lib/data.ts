@@ -34,14 +34,7 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
-    title: "Nextjs Developer Intern",
-    location: "Achintya Solutions",
-    description:
-      "Developed and maintained the Achintya Solutions website using Next.js for the company’s services. Worked with Salesforce API on the backend, and integrated WordPress API to fetch dynamic data.",
-    icon:  React.createElement(CgWorkAlt),
-    date: "May 2024 - Aug 2024",
-  },
+ 
   {
     title: "Full Stack Developer Intern",
     location: "Hyggex World",
@@ -56,6 +49,14 @@ export const experiencesData = [
       "  Design, develop, and maintain scalable and high-performance backend systems using Node.jsCreate and manage RESTful APIs to integrate with front-end applications and third-party services.Develop and optimize database schemas, queries, and indexing strategies using MongoDB",
     icon: React.createElement(CgWorkAlt),
     date: "October 2024 - Present",
+  },
+  {
+    title: "Full Stack Developer Intern",
+    location: "Somaya Enterprisess",
+    description:
+      " Built a WebSocket-based real-time messaging system, improving message delivery speed by 70%.• Designed a scalable MongoDB architecture, enhancing data retrieval efficiency by 60%. • Optimized API routes, reducing response times by 50% in high-traffic environments.• Integrated Razorpay Payment Gateway, improving transaction processing success by 80%",
+    icon:  React.createElement(CgWorkAlt),
+    date: "Jan 2025 - Present",
   },
 ] as const;
 export const projectsData = [
