@@ -1,6 +1,6 @@
 
 import React from "react";
-import music from "@/public/music.png";
+import warline from "@/public/warline.png";
 import LS from "@/public/LS.png";
 import seo from "@/public/seo.png";
 import { CgWorkAlt } from "react-icons/cg";
@@ -36,37 +36,38 @@ export const links = [
 export const experiencesData = [
  
   {
-    title: "Full Stack Developer Intern",
-    location: "Hyggex World",
-    description:"Designed and developed an AI chatbot using Azure AI services with native speech recognition.Integrated natural language processing for generating outputs in native languages and text formats.Managed database schemas using MongoDB.Developed responsive, user-friendly web interfaces with React.js, following Figma designs",
-    icon: React.createElement(CgWorkAlt),
-    date: "Aug 2024- October 2024",
-  },
-  {
     title: " Full Stack Developer Intern",
     location: "Daphnis Labs",
     description:
       "  Design, develop, and maintain scalable and high-performance backend systems using Node.jsCreate and manage RESTful APIs to integrate with front-end applications and third-party services.Develop and optimize database schemas, queries, and indexing strategies using MongoDB",
     icon: React.createElement(CgWorkAlt),
-    date: "October 2024 - Present",
+    date: "October 2024 - Jan 2025",
   },
   {
     title: "Full Stack Developer Intern",
-    location: "Somaya Enterprisess",
+    location: "True Mentor",
     description:
-      " Built a WebSocket-based real-time messaging system, improving message delivery speed by 70%.• Designed a scalable MongoDB architecture, enhancing data retrieval efficiency by 60%. • Optimized API routes, reducing response times by 50% in high-traffic environments.• Integrated Razorpay Payment Gateway, improving transaction processing success by 80%",
+      " Constructed a full-stack platform sustaining 2000+ users with consistent reliability.Implemented a live messaging feature using WebSockets in Node.js, minimizing API latency by 50%.Enhanced UI performance by creating responsive React.js interfaces, accelerating load times by 40%.",
     icon:  React.createElement(CgWorkAlt),
     date: "Jan 2025 - Present",
+  },
+  {
+    title: "Full Stack Developer Intern",
+    location: "Unimad.ai",
+    description:
+      "Designed scalable backend APIs in Django for AI-driven interview preparation, managing session storage and real-time updates.Partnered with prompt engineers to incorporate LLM workflows for optimized interview responses.Engineered front-end functionalities with React Query and Zustand, enhancing data synchronization.",
+    icon:  React.createElement(CgWorkAlt),
+    date: "April 2025 - Present",
   },
 ] as const;
 export const projectsData = [
   {
-    title: "Music School Website",
+    title: "WarlineNews",
     description:
-      "This website offers a user-friendly experience for both prospective students and music enthusiasts. Visitors can explore the various instruments offered, browse class schedules, and learn about the talented faculty.",
-    tags: ["React", "Next.js", "Tailwind"],
-    imageUrl: music,
-    link: "https://music-school-site.vercel.app/",
+      "Developed a MERN-stack web app to counter misinformation during the India-Pakistan conflict using Gemini API.Integrated AI agents to filter and display verified news from trusted sources, reducing misinformation spread. Implemented a real-time red zone heatmap using Google Maps and AI analysis of regional risk data.",
+    tags: ["React.js", "Node.js", "MongoDB","Gemini AI"],
+    imageUrl: warline,
+    link: "https://crisis-info-platform.vercel.app/",
   },
   {
     title: "LearnSync",
@@ -91,15 +92,16 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+   "Java",
   "React.js",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "MongoDB",
   "Express",
-  "Java",
-  "C",
-  "Python"
-  
+  "Tailwind",
+  "SpringBoot",
+  "Django",
+  "Git",
+  "Docker",
+  "MongoDB",
+  "Postgres", 
 ] as const;
